@@ -7,7 +7,7 @@ public class buffered_reader {
 	public static void Reader_test() {
 		//...new File([cesta k suboru - absolutna alebo relativna])
 		//File file = new File("!! dopln cestu");
-		File file = new File("src/vstup.txt");
+		File file = new File("src/vstup_2.txt");
 		//Relativna cesta - napr. ak je v rovnakom adresari ako tento subor (subor)
 		//File file = new File("src/vstup.txt");
 		java.io.BufferedReader br = null; 
@@ -20,6 +20,7 @@ public class buffered_reader {
 			int spoluhlasky = 0;
 			int interpunkt = 0;
 			int vety = 0;
+			int medzery = 0;
 			//loop na na vypisovanie textu zo suboru - riadok po riadku 
 			while ((str = br.readLine()) != null) {
 				System.out.println(str);
@@ -31,6 +32,13 @@ public class buffered_reader {
 						break;
 					case 'Q','q','w','W','r','R','t','T','z','Z','p','P','S','s','d','D','f','F','G','g','h','H','j','J','k','K','L','l','X','x','C','c','v','V','b','B','n','N','m','M':
 						spoluhlasky++;
+					break;
+					//diakritika case
+					case 'ž','š':
+						spoluhlasky++;
+						break;
+					case 'á':
+						samohlasky++;
 						break;
 					case '"',':','-','—',';',',','’','\'','”','“':
 						interpunkt++;
@@ -39,13 +47,17 @@ public class buffered_reader {
 						interpunkt++;
 						vety++;
 						break;
+					case ' ':
+						medzery++;
+						break;
 					default:
 						break;
 					}
 				}
 			}
 			//sprava kt. vypise pocet hlasok + viet
-			System.out.println("samohlasky: " + samohlasky + '\n' + "spoluhlasky: " + spoluhlasky + '\n' + "interpunkt: " + interpunkt + '\n' + "vety: " + vety);
+			System.out.println("samohlasky: " + samohlasky + '\n' + "spoluhlasky: " + spoluhlasky + '\n' + "interpunkt: " + interpunkt + '\n' + "vety: " + vety + '\n' + "medzery: " + medzery);
+			System.out.println("znakov spolu: " + (samohlasky + spoluhlasky + interpunkt + medzery));
 			br.close();
 			//vypise working directory - forma kontroly - ak sa pouziva relativna cesta
 			//System.out.println("Working directory: " + System.getProperty("user.dir"));
