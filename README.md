@@ -1,6 +1,6 @@
 # INF seminár 2024/25
-infolog (19.04.2025):
-- zoznam prác:
+## Infolog k 19.04.2025:
+### zoznam prác:
   - dec_to_bin
       - premena čísla z dekadickej sústavy do binárnej, kód ponúka viacej spôsobov
   - bin_to_dec
@@ -23,5 +23,6 @@ infolog (19.04.2025):
       -  winbuilder k cezar_sifra_updated
   - buffered_reader
       - načítavanie/spracovanie textu z .txt súbor z filesystému + práca s načítaným textom
-- niektoré winbuilder projekty máju preview aplikácie (/inf_1/window_preview/...)
+- niektoré winbuilder projekty máju preview aplikácie (/inf_1/window_preview/...
+- veľká vďaka Kevinovi za to, že som si mohol od neho skopírovať práca a upraviť ich, inak by som nebol schopný toto spraviť.
   
