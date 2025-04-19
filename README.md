@@ -1,6 +1,6 @@
-# INF seminár 2024/25
+# INF seminár 2024/25 a 2025/26
 ## Infolog k 19.04.2025:
-### zoznam prác:
+### zoznam prác (práce za rok 2024/25 sú v /inf_1):
   - dec_to_bin
       - premena čísla z dekadickej sústavy do binárnej, kód ponúka viacej spôsobov
   - bin_to_dec
