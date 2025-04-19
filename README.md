@@ -24,6 +24,7 @@
       -  windowbuilder k cezar_sifra_updated
   - buffered_reader
       - načítavanie/spracovanie textu z .txt súbor z filesystému + práca s načítaným textom
+
 - niektoré winbuilder projekty máju preview aplikácie (/inf_1/window_preview/...
 #### veľká vďaka Kevinovi za to, že som si mohol od neho skopírovať práca a upraviť ich, inak by som nebol schopný toto spraviť.
   
