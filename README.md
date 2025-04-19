@@ -1,4 +1,4 @@
-# inf_seminar
+# INF seminár 2024/25
 infolog (19.04.2025):
 - zoznam prác:
   - dec_to_bin 
