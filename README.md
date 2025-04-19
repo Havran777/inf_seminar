@@ -1,13 +1,27 @@
 # INF seminár 2024/25
 infolog (19.04.2025):
 - zoznam prác:
-  - dec_to_bin 
-  - eratest_syto 
-  - bin_to_dec 
-  - cezar_sifra 
-  - cezar_sifra_winbuilder 
-  - hex_to_dek 
-  - hex_to_dek_winbuilder 
-  - prvocisla_syto_winbuilder 
+  - dec_to_bin
+      - premena čísla z dekadickej sústavy do binárnej, kód ponúka viacej spôsobov
+  - bin_to_dec
+      - premena čísla z binárnej sústavy do dekadickej, kód ponúka viacej spôsobov
+  - hex_to_dek
+      - premena čísla z binárnej sústavy do hexadecimálnej
+  - hex_to_dek_winbuilder
+     - winbuilder k hex_to_dek
+  - eratest_syto
+     - algoritmus na hľadanie prvočisel z množiny od 2 po n (https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+  - prvocisla_syto_winbuilder
+      - custom algoritmus na hľadanie prvočisel + winbuilder aplikácia
+  - cezar_sifra
+       - jednoduchý algoritmus na šifrovanie správ (https://en.wikipedia.org/wiki/Caesar_cipher)
+  - cezar_sifra_winbuilder
+       - winbuilder k cezar_sifra
+  - cezar_sifra_updated
+      - upravená verzia k cezar_sifra
+  - cezar_sifra_updated_winbuilder
+      -  winbuilder k cezar_sifra_updated
   - buffered_reader
-- niektoré winbuilder projekty máju preview aplikácie  
+      - načítavanie/spracovanie textu z .txt súbor z filesystému + práca s načítaným textom
+- niektoré winbuilder projekty máju preview aplikácie (/inf_1/window_preview/...)
+  
