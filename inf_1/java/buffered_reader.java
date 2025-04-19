@@ -33,7 +33,7 @@ public class buffered_reader {
 					case 'Q','q','w','W','r','R','t','T','z','Z','p','P','S','s','d','D','f','F','G','g','h','H','j','J','k','K','L','l','X','x','C','c','v','V','b','B','n','N','m','M':
 						spoluhlasky++;
 					break;
-					//diakritika case
+					//diakritika case - !!! nie všetky
 					case 'ž','š':
 						spoluhlasky++;
 						break;
@@ -55,7 +55,7 @@ public class buffered_reader {
 					}
 				}
 			}
-			//sprava kt. vypise pocet hlasok + viet
+			//do konzoly vypise spravu ->  pocet hlasok + viet + celkovy pocet znakov aj s medzerami
 			System.out.println("samohlasky: " + samohlasky + '\n' + "spoluhlasky: " + spoluhlasky + '\n' + "interpunkt: " + interpunkt + '\n' + "vety: " + vety + '\n' + "medzery: " + medzery);
 			System.out.println("znakov spolu: " + (samohlasky + spoluhlasky + interpunkt + medzery));
 			br.close();
