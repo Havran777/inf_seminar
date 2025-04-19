@@ -1,1 +1,11 @@
 # inf_seminar
+infolog (19.04.2025)
+- dec_to_bin 
+- eratest_syto 
+- bin_to_dec 
+- cezar_sifra 
+- cezar_sifra_winbuilder 
+- hex_to_dek 
+- hex_to_dek_winbuilder 
+- prvocisla_syto_winbuilder 
+- buffered_reader 
