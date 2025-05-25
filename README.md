@@ -1,4 +1,12 @@
 # INF seminár 2024/25 a 2025/26
+## Infolog k 24.05.2025:
+### zoznam posledne pridaných prác za posledné obdobie (19.04 - 24.05.2025)
+  - RGB_color_changer
+      - windowbuilder aplikácia - zmena farby elementu na základe hýbania scrollbarov a zmien hodnôt vstupov (fiedov) a vzajomná interakcia 
+  - buffered_writer
+      - jednoduchý program na ukladanie vstupu do (textového) súboru
+  - textovy_editor
+      - windowbuilder aplikácia - jednoduchý textový editor, kde sa dá zmeniť text na bold, italic alebo bold italic zároveň. Text sa dá aj uloziť (save_btn). 
 ## Infolog k 19.04.2025:
 ### zoznam prác (práce za rok 2024/25 sú v /inf_1):
 #### !!! pozor nemusia tu byť všetky práce
